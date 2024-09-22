@@ -1,0 +1,209 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Smythe", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.header{
+    background-image: url(images/HeaderImage.png);
+    width: 600px;
+    height: 167px;
+    margin: 0 auto;
+}
+
+.header-caption{
+    color: white;
+    padding: 30px 40px;
+}
+
+.header-title{
+    font-size: 39px;
+    margin: 0px;
+}
+
+.sub-header-title{
+    font-size: 23px;
+    margin-top: 2px;
+}
+
+.menu-items{
+    width: 508px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.menu-item{
+    display: flex;
+    border-bottom: 1px solid #D2D2D2;
+    padding: 30px 0px;
+}
+
+.item{
+    font-size: 70px;
+    width: 70px;
+    height: 70px;
+}
+
+
+.item-description{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.item-name{
+    padding-top: 10px;
+    margin: 0;
+    font-size: 28px;
+}
+
+.item-ingredients{
+    margin: 0px 0px 5px;
+    color: #8B8B8B;
+    font-size: 16px;
+}
+
+.item-price{
+    margin: 0;
+    font-size: 20px;
+}
+
+.add-item{
+    margin: auto 0 auto auto;
+}
+
+.add-button{
+    font-family: "Inter", sans-serif;
+    background: white;
+    font-size: 30px;
+    padding: 9px 17px;
+    border: 1px solid #DEDEDE;
+    border-radius: 50%;
+}
+
+.add-button:hover{
+    border: 1px solid black;
+    color: firebrick;
+}
+
+.checkout-order{
+    width: 508px;
+    margin: 0 auto;
+}
+
+.checkout-title{
+    text-align: center;
+}
+
+.checkout-items{
+    width: 508px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.item-remove-btn{
+    background: white;
+    color: #BBBBBB;
+    border: none;
+}
+
+.item-checkout-price{
+    margin-left: auto;
+}
+
+.checkout-items-total{
+    border-top: 2px solid black;
+    width: 508px;
+    display: flex;
+    align-items: center;
+}
+
+
+.total-price{
+    margin-left: auto;
+}
+
+.complete-processing{
+    width: 508px;
+    color: white;
+    background-color: #16DB99;
+    height: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.modal{
+    display: none;
+    background-color: white;
+    position: fixed;
+    top: 100px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    margin: auto auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    flex-direction: column;
+    align-items: center;
+    width: 524px;
+    height: 500px;
+    box-shadow: 5px 5px 100px black;
+}
+
+.modal-title{
+    margin-top: 50px;
+}
+
+.input-field{
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 15px;
+    width: 475px;
+    height: 72px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+
+.input-field::placeholder{
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 15px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.payment-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.complete-pay{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-color: #16DB99;
+    font-weight: bold;
+    font-size: 16px;
+    width: 475px;
+    height: 72px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.end-message{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: #ECFDF5;
+    color: #065F46;
+}
