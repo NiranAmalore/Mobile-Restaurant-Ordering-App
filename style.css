@@ -1,245 +1,209 @@
-* {
+*{
     box-sizing: border-box;
 }
 
-body {
+body{
     margin: 0 auto;
     font-family: "Smythe", system-ui;
     font-weight: 400;
-    min-width: 300px; /* Minimum width for smaller devices */
+    min-width: 400px;
     font-style: normal;
 }
 
-.header {
+.header{
     background-image: url(images/HeaderImage.png);
-    width: 100%; /* Set to 100% for responsiveness */
-    max-width: 600px;
-    height: auto;
-    aspect-ratio: 16/9; /* Maintain aspect ratio */
+    width: 600px;
+    height: 167px;
     margin: 0 auto;
-    background-size: cover;
-    background-position: center;
 }
 
-.header-caption {
+.header-caption{
     color: white;
-    padding: 20px 10px;
-    text-align: center; /* Center-align text for smaller screens */
+    padding: 30px 40px;
 }
 
-.header-title {
-    font-size: 7vw; /* Responsive font size */
-    margin: 0;
+.header-title{
+    font-size: 39px;
+    margin: 0px;
 }
 
-.sub-header-title {
-    font-size: 4.5vw; /* Responsive font size */
-    margin-top: 5px;
+.sub-header-title{
+    font-size: 23px;
+    margin-top: 2px;
 }
 
-.menu-items {
-    width: 90%;
-    max-width: 508px;
+.menu-items{
+    width: 508px;
     margin: 0 auto;
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
-.menu-item {
+.menu-item{
     display: flex;
-    flex-direction: column; /* Stack items vertically on small screens */
     border-bottom: 1px solid #D2D2D2;
-    padding: 20px 0;
+    padding: 30px 0px;
 }
 
-.item {
-    font-size: 40px;
-    width: 60px;
-    height: 60px;
+.item{
+    font-size: 70px;
+    width: 70px;
+    height: 70px;
 }
 
-.item-description {
+
+.item-description{
     display: flex;
     flex-direction: column;
-    margin-left: 0;
+    margin-left: 50px;
 }
 
-.item-name {
+.item-name{
     padding-top: 10px;
     margin: 0;
-    font-size: 6vw; /* Responsive font size */
+    font-size: 28px;
 }
 
-.item-ingredients {
-    margin: 5px 0;
+.item-ingredients{
+    margin: 0px 0px 5px;
     color: #8B8B8B;
-    font-size: 4vw; /* Responsive font size */
+    font-size: 16px;
 }
 
-.item-price {
+.item-price{
     margin: 0;
-    font-size: 4.5vw; /* Responsive font size */
+    font-size: 20px;
 }
 
-.add-item {
-    margin: 10px 0 0 0;
+.add-item{
+    margin: auto 0 auto auto;
 }
 
-.add-button {
+.add-button{
     font-family: "Inter", sans-serif;
     background: white;
-    font-size: 5vw; /* Responsive font size */
-    padding: 8px 14px;
+    font-size: 30px;
+    padding: 9px 17px;
     border: 1px solid #DEDEDE;
     border-radius: 50%;
 }
 
-.add-button:hover {
+.add-button:hover{
     border: 1px solid black;
     color: firebrick;
 }
 
-.checkout-order {
-    width: 90%;
-    max-width: 508px;
+.checkout-order{
+    width: 508px;
     margin: 0 auto;
 }
 
-.checkout-title {
+.checkout-title{
     text-align: center;
 }
 
-.checkout-items {
-    width: 100%;
+.checkout-items{
+    width: 508px;
     height: 40px;
     display: flex;
     align-items: center;
 }
 
-.item-remove-btn {
+.item-remove-btn{
     background: white;
     color: #BBBBBB;
     border: none;
 }
 
-.item-checkout-price {
+.item-checkout-price{
     margin-left: auto;
 }
 
-.checkout-items-total {
+.checkout-items-total{
     border-top: 2px solid black;
-    width: 100%;
+    width: 508px;
     display: flex;
     align-items: center;
 }
 
-.total-price {
+
+.total-price{
     margin-left: auto;
 }
 
-.complete-processing {
-    width: 90%;
-    max-width: 508px;
+.complete-processing{
+    width: 508px;
     color: white;
     background-color: #16DB99;
-    height: 50px;
+    height: 60px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
-    font-size: 4.5vw; /* Responsive font size */
+    font-size: 16px;
 }
 
-.modal {
+.modal{
     display: none;
     background-color: white;
     position: fixed;
-    top: 50px;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    margin: auto;
+    top: 100px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    margin: auto auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     flex-direction: column;
     align-items: center;
-    width: 90%;
-    max-width: 524px;
-    height: 90vh;
-    box-shadow: 5px 5px 50px black;
+    width: 524px;
+    height: 500px;
+    box-shadow: 5px 5px 100px black;
 }
 
-.modal-title {
-    margin-top: 20px;
-    font-size: 5vw; /* Responsive font size */
+.modal-title{
+    margin-top: 50px;
 }
 
-.input-field {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 4vw; /* Responsive font size */
-    width: 85%;
-    max-width: 475px;
-    height: 50px;
+.input-field{
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 15px;
+    width: 475px;
+    height: 72px;
     margin-top: 10px;
     margin-bottom: 20px;
     border-radius: 5px;
     padding-left: 20px;
 }
 
-.input-field::placeholder {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 4vw; /* Responsive font size */
+.input-field::placeholder{
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 15px;
 }
 
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
+  -webkit-appearance: none;
+  margin: 0;
 }
 
-.payment-form {
+.payment-form{
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
-.complete-pay {
+.complete-pay{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
     background-color: #16DB99;
     font-weight: bold;
-    font-size: 4.5vw; /* Responsive font size */
-    width: 85%;
-    max-width: 475px;
-    height: 50px;
+    font-size: 16px;
+    width: 475px;
+    height: 72px;
     margin-bottom: 20px;
     border-radius: 5px;
 }
 
-.end-message {
+.end-message{
     padding: 20px;
     display: flex;
     justify-content: center;
     background-color: #ECFDF5;
     color: #065F46;
-}
-
-/* Media Queries */
-@media (min-width: 768px) {
-    .header-title {
-        font-size: 30px;
-    }
-
-    .sub-header-title {
-        font-size: 18px;
-    }
-
-    .item-name {
-        font-size: 24px;
-    }
-
-    .item-ingredients,
-    .item-price {
-        font-size: 16px;
-    }
-
-    .complete-pay {
-        font-size: 16px;
-    }
 }
